@@ -36,7 +36,7 @@ header {
     font-weight: 500;
 }
 section{
-    height: 100vh;
+    height: ;
     border-bottom: 4px solid black;
 }
 
@@ -88,6 +88,9 @@ padding: 70px;
     margin: 6px;
 
 }
+.socialicons:hover{
+color: #FF4A57;
+}
 
 .card {
     width: 300px; /* Set the desired width for your card */
@@ -111,6 +114,7 @@ padding: 70px;
 /* Style the card card-body */
 .card-body {
     padding: 10px;
+    margin: 30px;
 }
 
 .card-title {
@@ -123,7 +127,68 @@ padding: 70px;
     font-size: 16px;
     margin: 10px 0;
 }
-.card.card::hov{}
+.card:hover{
+    color:white;
+    background-color:#FF4A57 ;
+    
+}
+#textcontent{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.ser{
+    font-size: large;
+    color: #FF4A57;
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+.my{
+    font-weight: bolder;
+    font-size: 70px;
+    padding: 20px;
+}
+.par{
+    padding: auto;
+}
+ /* styling the about section */
+ #about{
+    background-color: #23263A;
+    color: #fff;
+    
+    
+ }
+.firsttext{
+    text-align: center;
+    padding: 20px;
+}
+.imatext{
+    display: flex;
+}
+
+.secondtext{
+    padding-top: 70px;
+    margin: 30px;
+}
+.secondtext h1{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 20px;
+    text-size-adjust: 30px;
+}
+.p1{
+    font-weight: bold;
+    font-size: 10px;
+    padding: 20px;
+}
+
+
+    
+    
+
 
 
 
